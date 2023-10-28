@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic-App</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-image: linear-gradient(rgb(34, 211, 235), rgb(57, 185, 202), rgb(64, 175, 160), rgb(34, 211, 235));
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+
+        }
+
+        .enterName {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+
+        .textBox {
+            width: 300px;
+            height: 40px;
+            margin-bottom: 15px;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .mybtn {
+            text-align: center;
+            width: 100px;
+            height: 30px;
+            color: aliceblue;
+            background-color: rgb(18, 18, 231);
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .mybtn:hover {
+            background-color: rgb(1, 6, 85);
+        }
+
+        .result {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>
+                Magic App created by Divya Singh
+            </h1>
+        </div>
+        <div class="enterName">
+            <span>
+                <h3>Enter Your Name:</h3>
+            </span>
+            <input id="myName" class="textBox" type="text">
+            <button id="myButton" class="mybtn" type="submit">submit</button>
+        </div>
+        <div class="result">
+            <h3 id="finalResult"></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
