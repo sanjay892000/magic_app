@@ -2,7 +2,7 @@ let myName = document.getElementById('myName');
 let myButton = document.getElementById('myButton');
 let finalResult= document.getElementById('finalResult');
 
-let array=['Pagal hai','Chamar hai','Gadha hai','Kutta hai','Bhukkhad hai','Kamchor hai','Aalasi hai','Shwarthi hai','Matalbi hai','Darpok hai']
+let array=['Pagal hai','Kanjus hai','Gadha hai','Buddhihin hai','Bhukkhad hai','Kamchor hai','Aalasi hai','Shwarthi hai','Matalbi hai','Darpok hai']
 myButton.addEventListener('click', ()=>{
 
     if(myName.value!=""){
